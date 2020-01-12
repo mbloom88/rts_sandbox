@@ -8,4 +8,5 @@ A real-time strategy (RTS) experimentation project that is built-up using a numb
 * [Mouse: Drag-Select Multiple Units](http://kidscancode.org/godot_recipes/input/multi_unit_select/)
 
 ## Assets
+* [Sci-Fi RTS](https://www.kenney.nl/assets/sci-fi-rts)
 
