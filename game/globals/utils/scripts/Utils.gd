@@ -32,13 +32,11 @@ func datetime():
 
 #-------------------------------------------------------------------------------
 
-func display_height():
-	return ProjectSettings.get_setting("display/window/size/height")
-
-#-------------------------------------------------------------------------------
-
-func display_width():
-	return ProjectSettings.get_setting("display/window/size/width")
+func get_display_size():
+	var width = ProjectSettings.get_setting("display/window/size/width")
+	var height = ProjectSettings.get_setting("display/window/size/height")
+	
+	return Vector2(width, height)
 
 #-------------------------------------------------------------------------------
 
