@@ -1,10 +1,9 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://entities/small_units/SmallUnitTemplate.tscn" type="PackedScene" id=1]
+[ext_resource path="res://entities/units/UnitTemplate.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/gfx/spritesheets/scifiRTS_spritesheet@2.png" type="Texture" id=2]
 
 [sub_resource type="AtlasTexture" id=1]
-flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 968, 0, 32, 48 )
 
@@ -12,9 +11,13 @@ region = Rect2( 968, 0, 32, 48 )
 extents = Vector2( 15.8146, 24.3331 )
 
 [node name="BlueWorker" instance=ExtResource( 1 )]
+move_speed = 200.0
+min_arrival_distance = 10.0
 
-[node name="Sprite" parent="." index="0"]
+[node name="Sprite" parent="." index="1"]
 texture = SubResource( 1 )
+offset = Vector2( 0, -24 )
 
-[node name="CollisionShape2D" parent="." index="1"]
+[node name="CollisionShape2D" parent="." index="2"]
+position = Vector2( 0, -24.0396 )
 shape = SubResource( 2 )

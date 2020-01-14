@@ -1,2 +1,2 @@
 # TODO
-* Fix camera panning and zooming in Level.tscn.
+* Fix unit collision detection when navigating to a point. May need to implement some kind of steering behaviors.

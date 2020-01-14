@@ -7,6 +7,8 @@ A real-time strategy (RTS) experimentation project that is built-up using a numb
 
 ### Cameras
 * [Godot RTS Tutorial Part 2 [Intermediate] Camera and Zoom](https://www.youtube.com/watch?v=FSoFJAmh96g)
+* [Godot RTS Tutorial Part-5 : Camera Overhaul](https://www.youtube.com/watch?v=GhY1x1lGeNs)
+
 ### Godot Engine
 * [Create Custom Editor Warnings in Godot (tutorial)](https://www.youtube.com/watch?v=90XPxd2533c)
 
@@ -18,3 +20,4 @@ A real-time strategy (RTS) experimentation project that is built-up using a numb
 
 ## Assets
 * [Sci-Fi RTS](https://www.kenney.nl/assets/sci-fi-rts)
+* [UI Pack](https://www.kenney.nl/assets/ui-pack)

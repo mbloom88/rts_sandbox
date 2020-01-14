@@ -2,7 +2,7 @@ extends Node2D
 
 # Child nodes
 onready var _camera = $Camera2D
-onready var _ground = $Ground
+onready var _ground = $Navigation2D/Ground
 
 ################################################################################
 # BUILT-IN VIRTUAL METHODS (CANNOT OVERRIDE)
